@@ -1,0 +1,12 @@
+{
+  "_comment": "Force-update gate for Ewe File Manager. Bump version when changed.",
+  "_instructions": "Set enabled true and minimumVersion above the live App Store build to block older installs. Replace appStoreURL with your real App Store link (https://apps.apple.com/app/idXXXXXXXX).",
+  "_github": "https://github.com/TrueIntelligence/EweTube-config",
+
+  "version": 1,
+  "enabled": false,
+  "minimumVersion": "1.0.0",
+  "appStoreURL": "https://apps.apple.com/app/id0000000000",
+  "title": "Update Required",
+  "message": "A new version of Ewe File Manager is available. Tap Update to open the App Store and install the latest version."
+}
