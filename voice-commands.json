@@ -1,0 +1,154 @@
+{
+  "_comment": "Remote voice phrases for Ewe File Manager (the sheep / النعجة). Bump version when changed.",
+  "_github": "https://github.com/TrueIntelligence/EweTube-config",
+  "_docs": "action must match a VoiceCommand name. language: en or ar. phrases: substring matches. allOf/noneOf: optional Arabic compound rules.",
+
+  "version": 1,
+
+  "commands": [
+    {
+      "action": "turnOffVoice",
+      "language": "en",
+      "phrases": [
+        "turn off the sheep",
+        "turn off the voice",
+        "turn off voice",
+        "stop voice control",
+        "disable voice"
+      ]
+    },
+    {
+      "action": "turnOffVoice",
+      "language": "ar",
+      "allOf": ["طف", "صوت", "نعج"]
+    },
+    {
+      "action": "quitApp",
+      "language": "en",
+      "phrases": ["turn off the app", "quit the app", "exit app"]
+    },
+    {
+      "action": "quitApp",
+      "language": "ar",
+      "allOf": ["طف", "نعج"],
+      "noneOf": ["صوت"]
+    },
+    {
+      "action": "closePlayer",
+      "language": "en",
+      "phrases": [
+        "close the player",
+        "close player",
+        "exit player",
+        "close video",
+        "close the video"
+      ]
+    },
+    {
+      "action": "closePlayer",
+      "language": "ar",
+      "allOf": ["اغلق"],
+      "anyOf": ["فيديو", "اغن", "الاغن"]
+    },
+    {
+      "action": "play",
+      "language": "en",
+      "phrases": ["play", "resume", "start"]
+    },
+    {
+      "action": "play",
+      "language": "ar",
+      "phrases": ["شغل", "استأنف", "كمل"]
+    },
+    {
+      "action": "pause",
+      "language": "en",
+      "phrases": ["pause"]
+    },
+    {
+      "action": "pause",
+      "language": "ar",
+      "phrases": ["وقف", "ايقاف", "إيقاف"]
+    },
+    {
+      "action": "stop",
+      "language": "en",
+      "phrases": ["stop playing"]
+    },
+    {
+      "action": "forward",
+      "language": "en",
+      "phrases": ["forward", "skip forward", "skip ahead"]
+    },
+    {
+      "action": "back",
+      "language": "en",
+      "phrases": ["back", "rewind", "go back"]
+    },
+    {
+      "action": "next",
+      "language": "en",
+      "phrases": ["next", "next track", "next video"]
+    },
+    {
+      "action": "previous",
+      "language": "en",
+      "phrases": ["previous", "last track", "go back track"]
+    },
+    {
+      "action": "skipIntro",
+      "language": "en",
+      "phrases": ["skip intro", "skip the intro"]
+    },
+    {
+      "action": "skipCredits",
+      "language": "en",
+      "phrases": ["skip credits", "skip ending"]
+    },
+    {
+      "action": "bookmark",
+      "language": "en",
+      "phrases": ["bookmark", "save bookmark", "mark this"]
+    },
+    {
+      "action": "repeatMode",
+      "language": "en",
+      "phrases": ["repeat", "repeat one", "repeat all"]
+    },
+    {
+      "action": "shuffle",
+      "language": "en",
+      "phrases": ["shuffle", "shuffle on", "shuffle off"]
+    },
+    {
+      "action": "lyrics",
+      "language": "en",
+      "phrases": ["lyrics", "show lyrics", "hide lyrics"]
+    },
+    {
+      "action": "party",
+      "language": "en",
+      "phrases": ["party mode", "party", "start party"]
+    },
+    {
+      "action": "addToQueue",
+      "language": "en",
+      "phrases": ["add to queue", "queue this"]
+    },
+    {
+      "action": "favoriteScene",
+      "language": "en",
+      "phrases": ["favorite scene", "save scene", "bookmark scene"]
+    },
+    {
+      "action": "faster",
+      "language": "en",
+      "phrases": ["faster", "speed up", "increase speed"]
+    },
+    {
+      "action": "slower",
+      "language": "en",
+      "phrases": ["slower", "slow down", "decrease speed"]
+    }
+  ]
+}
