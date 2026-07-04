@@ -3,7 +3,7 @@
   "_instructions": "APP STORE: reviewMode true. AFTER APPROVAL: reviewMode false, enable flags. Bump version when changed. Voice phrases: config/voice-commands.json (separate version).",
   "_github": "https://github.com/TrueIntelligence/EweTube-config",
 
-  "version": 5,
+  "version": 6,
   "reviewMode": false,
 
   "showYouTubeDownload": false,
@@ -15,5 +15,6 @@
   "showAllBrowserSites": false,
   "showYouTubeSearch": false,
   "showAkwamsSite": false,
-  "showMegaAdBlocker": false
+  "showMegaAdBlocker": false,
+  "showIPTVTab": true
 }
