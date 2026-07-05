@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "enabled": true,
+  "rootEnabled": true,
   "tabs": [
     {
       "id": "live",
