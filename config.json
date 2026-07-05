@@ -1,6 +1,9 @@
 {
+  "_comment": "Ewe File Manager remote feature flags.",
+  "_instructions": "APP STORE SUBMIT: reviewMode true, all show* false. AFTER APPROVAL: set reviewMode false and enable flags. Bump version when changed. Voice phrases: voice-commands.json (separate version).",
+  "_github": "https://github.com/TrueIntelligence/EweTube-config",
 
-  "version": 8,
+  "version": 9,
   "reviewMode": true,
 
   "showYouTubeDownload": false,
@@ -13,5 +16,6 @@
   "showYouTubeSearch": false,
   "showAkwamsSite": false,
   "showMegaAdBlocker": false,
-  "showIPTVTab": false
+  "showIPTVTab": false,
+  "showStopYouTubeAutoplay": true
 }
