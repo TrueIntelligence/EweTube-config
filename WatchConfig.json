@@ -1,6 +1,14 @@
 {
-  "version": 1,
+  "version": 2,
   "tabs": [
+    {
+      "id": "live",
+      "label": "Live TV",
+      "labelAr": "بث مباشر",
+      "icon": "tv.fill",
+      "m3uURL": "https://iptv-org.github.io/iptv/index.m3u",
+      "maxChannels": 300
+    },
     {
       "id": "sports",
       "label": "Sports",
