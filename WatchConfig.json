@@ -1,5 +1,6 @@
 {
   "version": 2,
+  "enabled": true,
   "tabs": [
     {
       "id": "live",
