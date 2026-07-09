@@ -5,7 +5,7 @@
     {
       "id": "live",
       "label": "Live TV",
-      "labelAr": "بث مباشر",
+      "labelAr": "\u0628\u062b \u0645\u0628\u0627\u0634\u0631",
       "icon": "tv.fill",
       "enabled": true,
       "m3uURL": "https://iptv-org.github.io/iptv/index.m3u",
@@ -14,7 +14,7 @@
     {
       "id": "sports",
       "label": "Sports",
-      "labelAr": "رياضة",
+      "labelAr": "\u0631\u064a\u0627\u0636\u0629",
       "icon": "sportscourt.fill",
       "enabled": true,
       "channels": [
@@ -135,7 +135,7 @@
     {
       "id": "kids",
       "label": "Kids",
-      "labelAr": "أطفال",
+      "labelAr": "\u0623\u0637\u0641\u0627\u0644",
       "icon": "star.fill",
       "enabled": true,
       "channels": [
@@ -148,5 +148,6 @@
         }
       ]
     }
-  ]
+  ],
+  "showYouTubeSettings": false
 }
