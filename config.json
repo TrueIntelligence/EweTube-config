@@ -13,7 +13,7 @@
   "showAkwamsSite": false,
   "showMegaAdBlocker": false,
   "showIPTVTab": false,
-  "showIPTVChannelsTab": true,
+  "showIPTVChannelsTab": false,
   "showSoccerTab": false,
   "showStopYouTubeAutoplay": false,
   "enableShareExtensionImport": false
