@@ -1,8 +1,4 @@
 {
-  "_comment": "Force-update gate for نعحة (Ewe File Manager). Bump version when changed.",
-  "_instructions": "Set enabled true and minimumVersion above the live App Store build to block older installs. Users cannot dismiss the popup — only Update opens the App Store. Easter egg / forever unlock does NOT bypass this file.",
-  "_github": "https://github.com/TrueIntelligence/EweTube-config",
-
   "version": 2,
   "enabled": false,
   "minimumVersion": "1.0.0",
