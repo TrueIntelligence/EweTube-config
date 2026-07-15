@@ -1,5 +1,5 @@
 {
-  "version": 16,
+  "version": 17,
   "reviewMode": true,
 
   "showYouTubeDownload": false,
@@ -16,5 +16,7 @@
   "showIPTVChannelsTab": false,
   "showSoccerTab": false,
   "showStopYouTubeAutoplay": false,
-  "enableShareExtensionImport": false
+  "enableShareExtensionImport": false,
+  "showWatchDownloadsTab": false,
+  "showDownloadsWidget": false
 }
