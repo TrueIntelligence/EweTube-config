@@ -1,5 +1,5 @@
 {
-  "version": 21,
+  "version": 22,
   "reviewMode": true,
 
   "showYouTubeDownload": false,
@@ -18,5 +18,7 @@
   "showStopYouTubeAutoplay": false,
   "enableShareExtensionImport": false,
   "showWatchDownloadsTab": false,
-  "showDownloadsWidget": false
+  "showDownloadsWidget": false,
+  "donateEnabled": false,
+  "donateURL": "https://www.paypal.com/donate/?business=37YZESEGYPNXL&no_recurring=0&item_name=%D8%A8%D8%AF%D8%B9%D9%85%D9%83%D9%85+%D9%86%D8%B3%D8%AA%D9%85%D8%B1&currency_code=USD"
 }
