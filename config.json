@@ -4,7 +4,7 @@
 
   "showYouTubeDownload": true,
   "showFloatingDownloadButton": false,
-  "showUrlBarDownloadButton": false,
+  "showUrlBarDownloadButton": true,
   "showYouTubeShortsToggle": false,
   "showHideDownloadButtonSetting": true,
   "showVideoSites": false,
