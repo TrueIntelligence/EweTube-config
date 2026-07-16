@@ -1,6 +1,6 @@
 {
   "version": 21,
-  "reviewMode": false,
+  "reviewMode": true,
 
   "showYouTubeDownload": false,
   "showFloatingDownloadButton": false,
