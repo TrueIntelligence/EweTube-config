@@ -1,12 +1,12 @@
 {
-  "version": 20,
+  "version": 21,
   "reviewMode": false,
 
-  "showYouTubeDownload": true,
-  "showFloatingDownloadButton": true,
-  "showUrlBarDownloadButton": true,
+  "showYouTubeDownload": false,
+  "showFloatingDownloadButton": false,
+  "showUrlBarDownloadButton": false,
   "showYouTubeShortsToggle": false,
-  "showHideDownloadButtonSetting": true,
+  "showHideDownloadButtonSetting": false,
   "showVideoSites": false,
   "showAllBrowserSites": false,
   "showYouTubeSearch": false,
